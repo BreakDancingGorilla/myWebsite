@@ -1,0 +1,46 @@
+#redLine{
+    display: flex;
+    height: 10px;
+    background-color: #DA0037;
+    }
+.circle{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #da6d42;
+    border-radius: 19%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: auto;
+}
+.testing{
+    display: grid;
+    grid-template-columns: 1fr 25vw 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-color: green;
+}
+.picBox{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.textBox2{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+
+    grid-row: span 2;
+}
+#textH{
+    align-self: center;
+    font-size: x-large
+}
+.white{
+    color: #EDEDED;
+}
+.obama{
+    height: 100%;
+}
+/* A grid within a grid??? grid -> grid -> flexbox */

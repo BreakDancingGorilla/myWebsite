@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background-color: F7F7F7;
+}
+#flexboxT{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    height: 19vw;
+    align-items: center;
+
+
+}
+
+#contact{
+color: #EDEDED;
+padding-top: 0;
+margin-top: 10px;
+}
+#name{
+  font-size: 7vw;
+  color: #EDEDED;
+  margin: 0;  
+}
+.baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+#obamaLink{
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 25px;
+  height: 50px;
+  
+}
+
+#temp{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  background-color: #121212;
+}
+
+
+#tempSq{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171717;
+}
+.flexy{
+  height: 40%;
+  background-color: aqua;
+  width: 100%;
+}
+.sepGrid{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  align-self: flex-start;
+  grid-template-columns: 1fr 1fr;
+}
+.gpsBox{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.gps{
+  width: 100%;
+  height: 50%;
+}
+.textBox{
+  display: flex;
+  flex-direction: column;
+  background-color: #DA0037;
+}
+#flexNames{
+  font-size: xx-large;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 15px;
+color: #EDEDED;
+}
+
+#crimes{
+  font-size: x-large;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: 15px;
+  color: #EDEDED;
+}
+
+.bounty{
+  font-size: xx-large;
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  color: #EDEDED;
+}
+#bSpace{
+  display: flex;
+  justify-content: center;
+  background-color: #EDEDED ;
+}
+
+@media (min-width: 1400px) {
+  #flexboxT{
+      height: 13vw;
+  }
+}
+@media all and (min-width: 1500px) and (max-width: 20000000000000px) {
+
+}
+@media all and (max-width: 1090px){
+  #temp{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #tempSq{
+  height: 100%;
+  }
+
+}
+/*  Notes  
+* Maybe put the whole fish grid in a flexbox. 
+Yes ^ so it can be in a column when screen get small 
+#flexNames{
+  align-self: flex-start;
+  font-size: 3vh;
+  margin-top: 0;
+  margin-left: 15px;
+color: #EDEDED;
+}
+
+#crimes{
+  font-size: 1.5vh;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: 15px;
+  color: #EDEDED;
+}
+
+.bounty{
+  font-size: 3vh;
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  color: #EDEDED;
+}
+#bSpace{
+
+
+*/ 
